@@ -9,11 +9,21 @@ def function():
     b = int(b_s)
     c = int(c_s)
 
-    x1 = (-b + math.sqrt(b**2 - 4*a*c)) / (2 * a)
-    x2 = (-b - math.sqrt(b**2 - 4*a*c)) / (2 * a)
+    t = b**2 - 4*a*c
+    if t >= 0:
+      x1 = (-b + math.sqrt(t)) / (2 * a)
+      x2 = (-b - math.sqrt(t)) / (2 * a)
+      print(format(x1,".1f"))
+      print(format(x2,".1f"))
+    else:
+      real = format(-b / 2*a,".1f")
+      img = format(math.sqrt(abs(t)) / 2 * a,".1f")
 
-    print(format(x1,".1f"))
-    print(format(x2,".1f"))
+      x1 = real+"+"+img+"i"
+      x2 = real+"-"+img+"i"
+
+      print(x1)
+      print(x2)
 
 def main():
     function()
