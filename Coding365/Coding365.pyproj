@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>20af04cf-fd83-4292-9b1e-490efee11204</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Coding365.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Coding365.py" />
+    <Compile Include="bookselling.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="calyourgrade.py" />
+    <Compile Include="function_root.py" />
+    <Compile Include="sumproductdiffquo.py" />
+    <Compile Include="triangle.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

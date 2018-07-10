@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>20af04cf-fd83-4292-9b1e-490efee11204</TargetProject>
+    <FriendlyName>Coding365</FriendlyName>
+  </ProjectTarget>
+</ProfilingTarget>
