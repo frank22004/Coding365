@@ -1,10 +1,10 @@
-#ºâ¥Xa,b,c¤T±ø½u¦bx¶b¤W©Ò²[»\ªºªø«×
+#ç®—å‡ºnæ¢ç·šåœ¨xè»¸ä¸Šæ‰€æ¶µè“‹çš„é•·åº¦
 def main():
     largest = 0
     smallest = 0
     a = 0
     
-    for i in range(6):
+    for i in range(2 * (int(input()))):
         a = input()
         a = int(a)
         
